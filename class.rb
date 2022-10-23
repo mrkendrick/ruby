@@ -8,8 +8,17 @@ class Student
     @email = email
     @password = password
   end
+
+  def instance_method
+    puts 'This is an instance method'
+  end
+
+  def self.class_method
+    puts 'This is a class method'
+  end
 end
 
-student = Student.new('Charles', 'Duruaku', 'charles@gmail.com', 'test1234')
+Student.class_method
 
-p student
+student = Student.new('Charles', 'Duruaku', 'charles@gmail.com', 'test1234')
+student.instance_method
