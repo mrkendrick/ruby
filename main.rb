@@ -1,3 +1,9 @@
+require_relative 'math_modules'
+
+result = MathUtils.subtract(45, 18)
+
+puts result
+
 # variable
 greeting = 'Hello world'
 
