@@ -25,6 +25,15 @@ else
   puts 'Welcome to the program, User'
 end
 
+# Unless statement
+hungry = false
+
+if hungry
+  # Have some noms
+else
+  # Write some sweet programs
+end
+
 # Case-when statement
 str = 'two'
 
